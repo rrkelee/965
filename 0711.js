@@ -154,7 +154,7 @@ $(".close-btn").click(function(){
                         .bind("error",function(){
                             var vid = $self.attr("data-vid") || 0;
                             if( vid>0) {
-                                $.get("/include/ajax.php?action=img_err&id="+vid+"&ts="+(+new Date()),function(){});
+                                //$.get("/include/ajax.php?action=img_err&id="+vid+"&ts="+(+new Date()),function(){});
                             }
                         });
                 }
