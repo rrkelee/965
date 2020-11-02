@@ -1276,12 +1276,3 @@ clipboard2.on('success', function (e) {
   alert("复制QQ群号成功");
 });
 var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?2ee5f1c55325f8e554945107d4d17c6d";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-if (  location.href.indexOf("copy")>-1 ) {
-  _hmt.push(['_trackEvent', 'copyPageView', 'openpage', '' ]);
-}
